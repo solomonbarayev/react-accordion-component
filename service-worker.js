@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/react-accordion-component/precache-manifest.f592bc845948b1ba4a7df29717b70d4f.js"
+  "/react-accordion-component/precache-manifest.26fb7a6b5c394fbfb5b97cc545e8ea6f.js"
 );
 
 self.addEventListener('message', (event) => {
