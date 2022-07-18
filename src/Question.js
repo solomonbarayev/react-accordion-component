@@ -11,7 +11,7 @@ const Question = (props) => {
           {isShown ? <AiOutlineMinus /> : <AiOutlinePlus />}
         </button>
       </header>
-      {isShown && <p>{info}</p>}
+      <p className={isShown ? "isShown" : "isHidden"}>{info}</p>
     </div>
   );
 };
